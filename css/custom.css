@@ -1,0 +1,112 @@
+.btn-primary {
+    background: #FF9900;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: rgb(219, 133, 4);
+    border: 0;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(159, 177, 197);
+    color: #173A56;
+}
+
+.herobwa h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.herobwa p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2F281E;
+}
+
+.navbar-nav .nav-link {
+    color: #2F281E;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
+
+.btn-outline-black {
+    margin-top: 60px;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.btn.filter:hover {
+    background: none;
+    border: 1px solid rgb(159, 177, 197);
+    color: #173A56;
+}
+
+footer {
+    background-color: rgb(247, 166, 14);
+}
+
+#justpushtobottom {
+    height: 2vh;
+}
+
+.h6 {
+    text-transform: center;
+    padding: center;
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
